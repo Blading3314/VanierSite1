@@ -1,0 +1,108 @@
+2470211@D23918-21KXM34 MINGW64 ~
+$ cd /c/users/2470211
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211
+$ cd documents
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211/documents (master)
+$ cd vaniersite1/
+bash: cd: vaniersite1/: No such file or directory
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211/documents (master)
+$ cd
+
+2470211@D23918-21KXM34 MINGW64 ~
+$ cd /c/users/2470211
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211
+$ cd V
+VanierSite1/ Videos/
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211
+$ cd VanierSite1/
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211/VanierSite1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211/VanierSite1 (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/2470211/VanierSite1/.git/
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211/VanierSite1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211/VanierSite1 (master)
+$ ls
+README.md  bluestyle.css  index.html
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211/VanierSite1 (master)
+$ pwd
+/c/users/2470211/VanierSite1
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211/VanierSite1 (master)
+$ ^C
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211/VanierSite1 (master)
+$ git --version
+git version 2.45.2.windows.1
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211/VanierSite1 (master)
+$ cd..
+bash: cd..: command not found
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211/VanierSite1 (master)
+$ cd ..
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211
+$ cd.git
+bash: cd.git: command not found
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211
+$ cd .git
+bash: cd: .git: No such file or directory
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211
+$ cd VanierSite1/
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211/VanierSite1 (master)
+$ cd .git
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211/VanierSite1/.git (GIT_DIR!)
+$ ls
+HEAD  config  description  hooks/  index  info/  logs/  objects/  refs/
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211/VanierSite1/.git (GIT_DIR!)
+$ ^C
+bash: :s^C: substitution failed
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211/VanierSite1/.git (GIT_DIR!)
+$ git status
+fatal: this operation must be run in a work tree
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211/VanierSite1/.git (GIT_DIR!)
+$ ^C
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211/VanierSite1/.git (GIT_DIR!)
+$ ^C
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211/VanierSite1/.git (GIT_DIR!)
+$ ^C
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211/VanierSite1/.git (GIT_DIR!)
+$ git init status
+Initialized empty Git repository in C:/Users/2470211/VanierSite1/.git/status/.git/
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211/VanierSite1/.git (GIT_DIR!)
+$ git init get status
+usage: git init [-q | --quiet] [--bare] [--template=<template-directory>]
+         [--separate-git-dir <git-dir>] [--object-format=<format>]
+         [--ref-format=<format>]
+         [-b <branch-name> | --initial-branch=<branch-name>]
+         [--shared[=<permissions>]] [<directory>]
+
+2470211@D23918-21KXM34 MINGW64 /c/users/2470211/VanierSite1/.git (GIT_DIR!)
+$
